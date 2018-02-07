@@ -11,7 +11,7 @@ package ja07agendaclase;
  */
 public class Agenda {
     private int anyo;
-    private Pagina[] paginas;
+    private Pagina[] paginas = new Pagina[365];
     public Pagina abierta;
 
     Agenda(){
